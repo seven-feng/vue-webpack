@@ -2,32 +2,20 @@ const path = require('path');
 const utils = require('./utils');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // 自动创建html
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // 实现css分离
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // 这个插件作用是对单独抽离出来的css文件进行压缩
 const CleanWebpackPlugin = require('clean-webpack-plugin'); // 每次构建前清理输出目录
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const webpack = require('webpack');
 
 function resolve(_path) {
   return path.join(__dirname, '..', _path);
 }
 
 module.exports = {
-  mode: 'development',
   entry: './src/main.js',
   output: {
-    filename: 'bundle.[hash:8].js',  //当js文件更改， [hash]的值会变化，每次build会生成一个新的js文件，[hash:8]，只显示8位的hash值，打包出来当然文件名叫 bundle.js
+    filename: 'bundle.[hash:8].js',  // 当js文件更改， [hash]的值会变化，每次build会生成一个新的js文件，[hash:8]，只显示8位的hash值，打包出来当然文件名叫 bundle.js
+    chunkFilename: '[name].chunk.js', // main.js异步加载的间接的js文件。用来打包import('module')方法中引入的模块
     path: path.resolve(__dirname, '../dist') // resolve() 可以把相对路径解析成绝对路径， __dirname 是当前目录，路径必须是一个绝对路径，相对于根目录
   },
-  devServer: { // 开发服务器的配置，webpack-dev-server 在编译之后不会写入到任何输出文件。而是将 bundle 文件保留在内存中，然后将它们 serve 到 server 中
-    port: 3000,
-    progress: true, // 编译的进度条
-    contentBase: resolve('dist'), // 告诉服务器从哪个目录中提供内容
-    compress: true, // 自动压缩
-    open: true, // 自动打开浏览器
-    hot: true, // 开启热更新
-    hotOnly: true // 尽管html功能没有实现，也不让浏览器刷新
-  },
-  devtool: 'cheap-module-eval-source-map',
   module: { // 模块loader 默认是从右到左，从下到上执行,多个loader需要一个数组，loader是有顺序的，默认是从右向左执行，loader还可以写成对象方式
     rules: [
       {
@@ -92,7 +80,29 @@ module.exports = {
     ]
   },
   optimization: {
-    usedExports: true
+    splitChunks: { //启动代码分割,不写有默认配置项
+      chunks: 'all',//参数all/initial/async，只对所有/同步/异步进行代码分割
+      minSize: 30000, //大于30kb才会对代码分割
+      maxSize: 0,
+      minChunks: 1,//打包生成的文件，当一个模块至少用多少次时才会进行代码分割
+      maxAsyncRequests: 5,//同时加载的模块数最多是5个
+      maxInitialRequests: 3,//入口文件最多3个模块会做代码分割，否则不会
+      automaticNameDelimiter: '~',//文件自动生成的连接符
+      name: true,
+      cacheGroups:{ // 对同步代码走缓存组
+        vendors: {
+          test: /[\\/]node_modules[\\/]/,
+          priority: -10, // 谁优先级大就把打包后的文件放到哪个组
+          filename:'vendors.js'
+        },
+        default: {
+          minChunks: 2,
+          priority: -20,
+          reuseExistingChunk: true,// 模块已经被打包过了，就不用再打包了，复用之前的就可以
+          filename:'common.js' // 打包之后的文件名   
+        }
+      }
+    }
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -105,19 +115,11 @@ module.exports = {
       // favicon: resolve('favicon.ico')
     }),
     new CleanWebpackPlugin(),
-    new webpack.HotModuleReplacementPlugin(), // 使用模块热替换插件
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
       filename: utils.assetsPath('css/[name].[hash:8].css'),
       chunkFilename: utils.assetsPath('css/[id].[hash:8].css')
-    }),
-    new OptimizeCSSAssetsPlugin({
-      cssProcessor: require('cssnano'), //引入cssnano配置压缩选项
-      cssProcessorOptions: {
-        discardComments: { removeAll: true }
-      },
-      canPrint: true // 是否将插件信息打印到控制台
     }),
     new VueLoaderPlugin()
   ]
