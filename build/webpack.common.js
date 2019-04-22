@@ -14,7 +14,7 @@ module.exports = {
     app: './src/main.js'
   },
   output: {
-    filename: 'bundle.[hash:8].js',  // 当js文件更改， [hash]的值会变化，每次build会生成一个新的js文件，[hash:8]，只显示8位的hash值，打包出来当然文件名叫 bundle.js
+    filename: '[name].[hash:8].js',  // 当js文件更改， [hash]的值会变化，每次build会生成一个新的js文件，[hash:8]，只显示8位的hash值，打包出来当然文件名叫 bundle.js
     chunkFilename: '[name].chunk.js', // main.js异步加载的间接的js文件。用来打包import('module')方法中引入的模块
     path: path.resolve(__dirname, '../dist') // resolve() 可以把相对路径解析成绝对路径， __dirname 是当前目录，路径必须是一个绝对路径，相对于根目录
   },
@@ -26,23 +26,6 @@ module.exports = {
         include: [
           resolve('src'),
           resolve('node_modules/webpack-dev-server/client')
-        ]
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          process.env.NODE_ENV !== 'production'
-          ? 'vue-style-loader'
-          : MiniCssExtractPlugin.loader, // 把样式都抽离成一个单独的css文件
-          {
-            loader: "css-loader", // 解析 @import and url()
-            options:{
-                importLoaders:2 ,// 如果sass文件里还引入了另外一个sass文件，另一个文件还会从postcss-loader向上解析。如果不加，就直接从css-loader开始解析。
-                modules: true // 开启css的模块打包。css样式不会和其他模块发生耦合和冲突
-            }
-          }, 
-          'postcss-loader', // 为 css 样式属性加不同浏览器的前缀
-          'sass-loader' // 将 sass/scss 编译成 css
         ]
       },
       {
