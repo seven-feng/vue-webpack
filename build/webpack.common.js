@@ -10,7 +10,9 @@ function resolve(_path) {
 }
 
 module.exports = {
-  entry: './src/main.js',
+  entry: {
+    app: './src/main.js'
+  },
   output: {
     filename: 'bundle.[hash:8].js',  // 当js文件更改， [hash]的值会变化，每次build会生成一个新的js文件，[hash:8]，只显示8位的hash值，打包出来当然文件名叫 bundle.js
     chunkFilename: '[name].chunk.js', // main.js异步加载的间接的js文件。用来打包import('module')方法中引入的模块
@@ -27,17 +29,11 @@ module.exports = {
         ]
       },
       {
-        test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader, // 把样式都抽离成一个单独的css文件
-          'css-loader', // 解析 @import and url()
-          'postcss-loader', // 为 css 样式属性加不同浏览器的前缀
-        ]
-      },
-      {
         test: /\.scss$/,
         use: [
-          MiniCssExtractPlugin.loader,
+          process.env.NODE_ENV !== 'production'
+          ? 'vue-style-loader'
+          : MiniCssExtractPlugin.loader, // 把样式都抽离成一个单独的css文件
           {
             loader: "css-loader", // 解析 @import and url()
             options:{
@@ -80,26 +76,30 @@ module.exports = {
     ]
   },
   optimization: {
-    splitChunks: { //启动代码分割,不写有默认配置项
-      chunks: 'all',//参数all/initial/async，只对所有/同步/异步进行代码分割
-      minSize: 30000, //大于30kb才会对代码分割
+    // runtimeChunk: 'single',
+    runtimeChunk: { // 兼容老版本webpack4，把manifest打包到runtime里，不影响业务代码和第三方模块
+			name: 'runtime'
+		},
+    splitChunks: { // 启动代码分割,不写有默认配置项
+      chunks: 'all', // 参数all/initial/async，只对所有/同步/异步进行代码分割
+      minSize: 30000, // 大于30kb才会对代码分割
       maxSize: 0,
-      minChunks: 1,//打包生成的文件，当一个模块至少用多少次时才会进行代码分割
-      maxAsyncRequests: 5,//同时加载的模块数最多是5个
-      maxInitialRequests: 3,//入口文件最多3个模块会做代码分割，否则不会
-      automaticNameDelimiter: '~',//文件自动生成的连接符
+      minChunks: 1, // 打包生成的文件，当一个模块至少用多少次时才会进行代码分割
+      maxAsyncRequests: 5, // 同时加载的模块数最多是5个
+      maxInitialRequests: 3, // 入口文件最多3个模块会做代码分割，否则不会
+      automaticNameDelimiter: '~', // 文件自动生成的连接符
       name: true,
       cacheGroups:{ // 对同步代码走缓存组
         vendors: {
           test: /[\\/]node_modules[\\/]/,
           priority: -10, // 谁优先级大就把打包后的文件放到哪个组
-          filename:'vendors.js'
+          filename: utils.assetsPath('js/vendors.js')
         },
         default: {
           minChunks: 2,
           priority: -20,
-          reuseExistingChunk: true,// 模块已经被打包过了，就不用再打包了，复用之前的就可以
-          filename:'common.js' // 打包之后的文件名   
+          reuseExistingChunk: true, // 模块已经被打包过了，就不用再打包了，复用之前的就可以
+          filename: 'common.js' // 打包之后的文件名   
         }
       }
     }
@@ -112,7 +112,7 @@ module.exports = {
         collapseWhitespace: true // 变成一行
       },
       hash: true,
-      // favicon: resolve('favicon.ico')
+      favicon: resolve('favicon.ico')
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({

@@ -1,3 +1,7 @@
+'use strict'
+
+const path = require('path');
+
 module.exports = {
   dev: {
     // path
@@ -5,6 +9,7 @@ module.exports = {
   },
   build: {
     // path
+    assetsRoot: path.resolve(__dirname, '../dist'), // 资源目录
     assetsSubDirectory: 'static', // 资源子目录
 
   }

@@ -1,0 +1,1213 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.30.0",
+  "hash": "2dfd86f556135eaa0fe6",
+  "time": 6993,
+  "builtAt": 1555916972338,
+  "publicPath": "",
+  "outputPath": "D:\\zf7067\\Desktop\\vuewp\\dist",
+  "assetsByChunkName": {
+    "main": "bundle.2dfd86f5.js"
+  },
+  "assets": [
+    {
+      "name": "bundle.2dfd86f5.js",
+      "size": 65033,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "favicon.ico",
+      "size": 4286,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 441,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "static/img/color.0904ebf0.png",
+      "size": 47778,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "bundle.2dfd86f5.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "bundle.2dfd86f5.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 10926,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "bundle.2dfd86f5.js"
+      ],
+      "hash": "20092a79877a0d118027",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/style1.css",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+          "index": 2,
+          "index2": 1,
+          "size": 168,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "issuerId": "./src/style1.css",
+          "issuerName": "./src/style1.css",
+          "issuerPath": [
+            {
+              "id": "./src/main.js",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 119,
+                "building": 2105
+              }
+            },
+            {
+              "id": "./src/style1.css",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "name": "./src/style1.css",
+              "profile": {
+                "factory": 1141,
+                "building": 77
+              }
+            }
+          ],
+          "profile": {
+            "factory": 1158,
+            "building": 3470
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/style1.css",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "module": "./src/style1.css",
+              "moduleName": "./src/style1.css",
+              "type": "cjs require",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css",
+              "loc": "4:14-122"
+            },
+            {
+              "moduleId": "./src/style1.css",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "module": "./src/style1.css",
+              "moduleName": "./src/style1.css",
+              "type": "module.hot.accept",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css",
+              "loc": "14:3-18:5"
+            },
+            {
+              "moduleId": "./src/style1.css",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "module": "./src/style1.css",
+              "moduleName": "./src/style1.css",
+              "type": "cjs require",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css",
+              "loc": "15:22-130"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"html {\\n  font-size: 16px;\\n}\", \"\"]);\n\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 3,
+          "index2": 0,
+          "size": 2406,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/style1.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+          "issuerPath": [
+            {
+              "id": "./src/main.js",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 119,
+                "building": 2105
+              }
+            },
+            {
+              "id": "./src/style1.css",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "name": "./src/style1.css",
+              "profile": {
+                "factory": 1141,
+                "building": 77
+              }
+            },
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/style1.css",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+              "profile": {
+                "factory": 1158,
+                "building": 3470
+              }
+            }
+          ],
+          "profile": {
+            "factory": 42,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/style1.css",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+              "type": "cjs require",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "1:27-84"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+        },
+        {
+          "id": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+          "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "index": 4,
+          "index2": 3,
+          "size": 6232,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "issuerId": "./src/style1.css",
+          "issuerName": "./src/style1.css",
+          "issuerPath": [
+            {
+              "id": "./src/main.js",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 119,
+                "building": 2105
+              }
+            },
+            {
+              "id": "./src/style1.css",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "name": "./src/style1.css",
+              "profile": {
+                "factory": 1141,
+                "building": 77
+              }
+            }
+          ],
+          "profile": {
+            "factory": 1158,
+            "building": 3470
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/style1.css",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "module": "./src/style1.css",
+              "moduleName": "./src/style1.css",
+              "type": "cjs require",
+              "userRequest": "!../node_modules/vue-style-loader/lib/addStylesClient.js",
+              "loc": "8:10-77"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n  Modified by Evan You @yyx990803\n*/\n\nimport listToStyles from './listToStyles'\n\nvar hasDocument = typeof document !== 'undefined'\n\nif (typeof DEBUG !== 'undefined' && DEBUG) {\n  if (!hasDocument) {\n    throw new Error(\n    'vue-style-loader cannot be used in a non-browser environment. ' +\n    \"Use { target: 'node' } in your Webpack config to indicate a server-rendering environment.\"\n  ) }\n}\n\n/*\ntype StyleObject = {\n  id: number;\n  parts: Array<StyleObjectPart>\n}\n\ntype StyleObjectPart = {\n  css: string;\n  media: string;\n  sourceMap: ?string\n}\n*/\n\nvar stylesInDom = {/*\n  [id: number]: {\n    id: number,\n    refs: number,\n    parts: Array<(obj?: StyleObjectPart) => void>\n  }\n*/}\n\nvar head = hasDocument && (document.head || document.getElementsByTagName('head')[0])\nvar singletonElement = null\nvar singletonCounter = 0\nvar isProduction = false\nvar noop = function () {}\nvar options = null\nvar ssrIdKey = 'data-vue-ssr-id'\n\n// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n// tags it will allow on a page\nvar isOldIE = typeof navigator !== 'undefined' && /msie [6-9]\\b/.test(navigator.userAgent.toLowerCase())\n\nexport default function addStylesClient (parentId, list, _isProduction, _options) {\n  isProduction = _isProduction\n\n  options = _options || {}\n\n  var styles = listToStyles(parentId, list)\n  addStylesToDom(styles)\n\n  return function update (newList) {\n    var mayRemove = []\n    for (var i = 0; i < styles.length; i++) {\n      var item = styles[i]\n      var domStyle = stylesInDom[item.id]\n      domStyle.refs--\n      mayRemove.push(domStyle)\n    }\n    if (newList) {\n      styles = listToStyles(parentId, newList)\n      addStylesToDom(styles)\n    } else {\n      styles = []\n    }\n    for (var i = 0; i < mayRemove.length; i++) {\n      var domStyle = mayRemove[i]\n      if (domStyle.refs === 0) {\n        for (var j = 0; j < domStyle.parts.length; j++) {\n          domStyle.parts[j]()\n        }\n        delete stylesInDom[domStyle.id]\n      }\n    }\n  }\n}\n\nfunction addStylesToDom (styles /* Array<StyleObject> */) {\n  for (var i = 0; i < styles.length; i++) {\n    var item = styles[i]\n    var domStyle = stylesInDom[item.id]\n    if (domStyle) {\n      domStyle.refs++\n      for (var j = 0; j < domStyle.parts.length; j++) {\n        domStyle.parts[j](item.parts[j])\n      }\n      for (; j < item.parts.length; j++) {\n        domStyle.parts.push(addStyle(item.parts[j]))\n      }\n      if (domStyle.parts.length > item.parts.length) {\n        domStyle.parts.length = item.parts.length\n      }\n    } else {\n      var parts = []\n      for (var j = 0; j < item.parts.length; j++) {\n        parts.push(addStyle(item.parts[j]))\n      }\n      stylesInDom[item.id] = { id: item.id, refs: 1, parts: parts }\n    }\n  }\n}\n\nfunction createStyleElement () {\n  var styleElement = document.createElement('style')\n  styleElement.type = 'text/css'\n  head.appendChild(styleElement)\n  return styleElement\n}\n\nfunction addStyle (obj /* StyleObjectPart */) {\n  var update, remove\n  var styleElement = document.querySelector('style[' + ssrIdKey + '~=\"' + obj.id + '\"]')\n\n  if (styleElement) {\n    if (isProduction) {\n      // has SSR styles and in production mode.\n      // simply do nothing.\n      return noop\n    } else {\n      // has SSR styles but in dev mode.\n      // for some reason Chrome can't handle source map in server-rendered\n      // style tags - source maps in <style> only works if the style tag is\n      // created and inserted dynamically. So we remove the server rendered\n      // styles and inject new ones.\n      styleElement.parentNode.removeChild(styleElement)\n    }\n  }\n\n  if (isOldIE) {\n    // use singleton mode for IE9.\n    var styleIndex = singletonCounter++\n    styleElement = singletonElement || (singletonElement = createStyleElement())\n    update = applyToSingletonTag.bind(null, styleElement, styleIndex, false)\n    remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true)\n  } else {\n    // use multi-style-tag mode in all other cases\n    styleElement = createStyleElement()\n    update = applyToTag.bind(null, styleElement)\n    remove = function () {\n      styleElement.parentNode.removeChild(styleElement)\n    }\n  }\n\n  update(obj)\n\n  return function updateStyle (newObj /* StyleObjectPart */) {\n    if (newObj) {\n      if (newObj.css === obj.css &&\n          newObj.media === obj.media &&\n          newObj.sourceMap === obj.sourceMap) {\n        return\n      }\n      update(obj = newObj)\n    } else {\n      remove()\n    }\n  }\n}\n\nvar replaceText = (function () {\n  var textStore = []\n\n  return function (index, replacement) {\n    textStore[index] = replacement\n    return textStore.filter(Boolean).join('\\n')\n  }\n})()\n\nfunction applyToSingletonTag (styleElement, index, remove, obj) {\n  var css = remove ? '' : obj.css\n\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = replaceText(index, css)\n  } else {\n    var cssNode = document.createTextNode(css)\n    var childNodes = styleElement.childNodes\n    if (childNodes[index]) styleElement.removeChild(childNodes[index])\n    if (childNodes.length) {\n      styleElement.insertBefore(cssNode, childNodes[index])\n    } else {\n      styleElement.appendChild(cssNode)\n    }\n  }\n}\n\nfunction applyToTag (styleElement, obj) {\n  var css = obj.css\n  var media = obj.media\n  var sourceMap = obj.sourceMap\n\n  if (media) {\n    styleElement.setAttribute('media', media)\n  }\n  if (options.ssrId) {\n    styleElement.setAttribute(ssrIdKey, obj.id)\n  }\n\n  if (sourceMap) {\n    // https://developer.chrome.com/devtools/docs/javascript-debugging\n    // this makes source maps inside style tags work properly in Chrome\n    css += '\\n/*# sourceURL=' + sourceMap.sources[0] + ' */'\n    // http://stackoverflow.com/a/26603875\n    css += '\\n/*# sourceMappingURL=data:application/json;base64,' + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + ' */'\n  }\n\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild)\n    }\n    styleElement.appendChild(document.createTextNode(css))\n  }\n}\n"
+        },
+        {
+          "id": "./node_modules/vue-style-loader/lib/listToStyles.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\listToStyles.js",
+          "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+          "index": 5,
+          "index2": 2,
+          "size": 637,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+          "issuerId": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "issuerName": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "issuerPath": [
+            {
+              "id": "./src/main.js",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 119,
+                "building": 2105
+              }
+            },
+            {
+              "id": "./src/style1.css",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+              "name": "./src/style1.css",
+              "profile": {
+                "factory": 1141,
+                "building": 77
+              }
+            },
+            {
+              "id": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+              "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "profile": {
+                "factory": 1158,
+                "building": 3470
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2301,
+            "building": 41
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+              "module": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "moduleName": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./listToStyles",
+              "loc": "7:0-41"
+            },
+            {
+              "moduleId": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+              "module": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "moduleName": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "type": "harmony import specifier",
+              "userRequest": "./listToStyles",
+              "loc": "57:15-27"
+            },
+            {
+              "moduleId": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+              "module": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "moduleName": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+              "type": "harmony import specifier",
+              "userRequest": "./listToStyles",
+              "loc": "69:15-27"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 3,
+          "source": "/**\n * Translates the list format produced by css-loader into something\n * easier to manipulate.\n */\nexport default function listToStyles (parentId, list) {\n  var styles = []\n  var newStyles = {}\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i]\n    var id = item[0]\n    var css = item[1]\n    var media = item[2]\n    var sourceMap = item[3]\n    var part = {\n      id: parentId + ':' + i,\n      css: css,\n      media: media,\n      sourceMap: sourceMap\n    }\n    if (!newStyles[id]) {\n      styles.push(newStyles[id] = { id: id, parts: [part] })\n    } else {\n      newStyles[id].parts.push(part)\n    }\n  }\n  return styles\n}\n"
+        },
+        {
+          "id": "./src/color.png",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\url-loader\\dist\\cjs.js??ref--3-0!D:\\zf7067\\Desktop\\vuewp\\src\\color.png",
+          "name": "./src/color.png",
+          "index": 6,
+          "index2": 5,
+          "size": 75,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "issuerId": "./src/main.js",
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "id": "./src/main.js",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 119,
+                "building": 2105
+              }
+            }
+          ],
+          "profile": {
+            "factory": 1141,
+            "building": 77
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "static/img/color.0904ebf0.png"
+          ],
+          "reasons": [
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./color.png",
+              "loc": "2:0-34"
+            },
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "type": "harmony import specifier",
+              "userRequest": "./color.png",
+              "loc": "8:12-19"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "module.exports = __webpack_public_path__ + \"static/img/color.0904ebf0.png\";"
+        },
+        {
+          "id": "./src/main.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "name": "./src/main.js",
+          "index": 0,
+          "index2": 6,
+          "size": 302,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 119,
+            "building": 2105
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/main.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import './style1.css';\nimport imgIcon from './color.png';\n\nvar func = function func() {\n  var div = document.createElement('div');\n  div.innerHTML = 'abc';\n  var img = new Image();\n  img.src = imgIcon;\n  div.appendChild(img);\n  document.body.appendChild(div);\n  console.log('hello world!');\n};\n\nfunc();"
+        },
+        {
+          "id": "./src/style1.css",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "name": "./src/style1.css",
+          "index": 1,
+          "index2": 4,
+          "size": 1106,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "issuerId": "./src/main.js",
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "id": "./src/main.js",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 119,
+                "building": 2105
+              }
+            }
+          ],
+          "profile": {
+            "factory": 1141,
+            "building": 77
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./style1.css",
+              "loc": "1:0-22"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = require(\"!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css\");\nif(typeof content === 'string') content = [[module.id, content, '']];\nif(content.locals) module.exports = content.locals;\n// add the styles to the DOM\nvar add = require(\"!../node_modules/vue-style-loader/lib/addStylesClient.js\").default\nvar update = add(\"7a72563a\", content, false, {});\n// Hot Module Replacement\nif(module.hot) {\n // When the styles change, update the <style> tags\n if(!content.locals) {\n   module.hot.accept(\"!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css\", function() {\n     var newContent = require(\"!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css\");\n     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];\n     update(newContent);\n   });\n }\n // When the module is disposed, remove the <style> tags\n module.hot.dispose(function() { update(); });\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/main.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/style1.css",
+      "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+      "index": 2,
+      "index2": 1,
+      "size": 168,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+      "issuerId": "./src/style1.css",
+      "issuerName": "./src/style1.css",
+      "issuerPath": [
+        {
+          "id": "./src/main.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 119,
+            "building": 2105
+          }
+        },
+        {
+          "id": "./src/style1.css",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "name": "./src/style1.css",
+          "profile": {
+            "factory": 1141,
+            "building": 77
+          }
+        }
+      ],
+      "profile": {
+        "factory": 1158,
+        "building": 3470
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/style1.css",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "module": "./src/style1.css",
+          "moduleName": "./src/style1.css",
+          "type": "cjs require",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css",
+          "loc": "4:14-122"
+        },
+        {
+          "moduleId": "./src/style1.css",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "module": "./src/style1.css",
+          "moduleName": "./src/style1.css",
+          "type": "module.hot.accept",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css",
+          "loc": "14:3-18:5"
+        },
+        {
+          "moduleId": "./src/style1.css",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "module": "./src/style1.css",
+          "moduleName": "./src/style1.css",
+          "type": "cjs require",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css",
+          "loc": "15:22-130"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"html {\\n  font-size: 16px;\\n}\", \"\"]);\n\n"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "index": 3,
+      "index2": 0,
+      "size": 2406,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/style1.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+      "issuerPath": [
+        {
+          "id": "./src/main.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 119,
+            "building": 2105
+          }
+        },
+        {
+          "id": "./src/style1.css",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "name": "./src/style1.css",
+          "profile": {
+            "factory": 1141,
+            "building": 77
+          }
+        },
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/style1.css",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+          "profile": {
+            "factory": 1158,
+            "building": 3470
+          }
+        }
+      ],
+      "profile": {
+        "factory": 42,
+        "building": 5
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./src/style1.css",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style1.css",
+          "type": "cjs require",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "1:27-84"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3,
+      "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+    },
+    {
+      "id": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+      "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+      "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+      "index": 4,
+      "index2": 3,
+      "size": 6232,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+      "issuerId": "./src/style1.css",
+      "issuerName": "./src/style1.css",
+      "issuerPath": [
+        {
+          "id": "./src/main.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 119,
+            "building": 2105
+          }
+        },
+        {
+          "id": "./src/style1.css",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "name": "./src/style1.css",
+          "profile": {
+            "factory": 1141,
+            "building": 77
+          }
+        }
+      ],
+      "profile": {
+        "factory": 1158,
+        "building": 3470
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/style1.css",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "module": "./src/style1.css",
+          "moduleName": "./src/style1.css",
+          "type": "cjs require",
+          "userRequest": "!../node_modules/vue-style-loader/lib/addStylesClient.js",
+          "loc": "8:10-77"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n  Modified by Evan You @yyx990803\n*/\n\nimport listToStyles from './listToStyles'\n\nvar hasDocument = typeof document !== 'undefined'\n\nif (typeof DEBUG !== 'undefined' && DEBUG) {\n  if (!hasDocument) {\n    throw new Error(\n    'vue-style-loader cannot be used in a non-browser environment. ' +\n    \"Use { target: 'node' } in your Webpack config to indicate a server-rendering environment.\"\n  ) }\n}\n\n/*\ntype StyleObject = {\n  id: number;\n  parts: Array<StyleObjectPart>\n}\n\ntype StyleObjectPart = {\n  css: string;\n  media: string;\n  sourceMap: ?string\n}\n*/\n\nvar stylesInDom = {/*\n  [id: number]: {\n    id: number,\n    refs: number,\n    parts: Array<(obj?: StyleObjectPart) => void>\n  }\n*/}\n\nvar head = hasDocument && (document.head || document.getElementsByTagName('head')[0])\nvar singletonElement = null\nvar singletonCounter = 0\nvar isProduction = false\nvar noop = function () {}\nvar options = null\nvar ssrIdKey = 'data-vue-ssr-id'\n\n// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n// tags it will allow on a page\nvar isOldIE = typeof navigator !== 'undefined' && /msie [6-9]\\b/.test(navigator.userAgent.toLowerCase())\n\nexport default function addStylesClient (parentId, list, _isProduction, _options) {\n  isProduction = _isProduction\n\n  options = _options || {}\n\n  var styles = listToStyles(parentId, list)\n  addStylesToDom(styles)\n\n  return function update (newList) {\n    var mayRemove = []\n    for (var i = 0; i < styles.length; i++) {\n      var item = styles[i]\n      var domStyle = stylesInDom[item.id]\n      domStyle.refs--\n      mayRemove.push(domStyle)\n    }\n    if (newList) {\n      styles = listToStyles(parentId, newList)\n      addStylesToDom(styles)\n    } else {\n      styles = []\n    }\n    for (var i = 0; i < mayRemove.length; i++) {\n      var domStyle = mayRemove[i]\n      if (domStyle.refs === 0) {\n        for (var j = 0; j < domStyle.parts.length; j++) {\n          domStyle.parts[j]()\n        }\n        delete stylesInDom[domStyle.id]\n      }\n    }\n  }\n}\n\nfunction addStylesToDom (styles /* Array<StyleObject> */) {\n  for (var i = 0; i < styles.length; i++) {\n    var item = styles[i]\n    var domStyle = stylesInDom[item.id]\n    if (domStyle) {\n      domStyle.refs++\n      for (var j = 0; j < domStyle.parts.length; j++) {\n        domStyle.parts[j](item.parts[j])\n      }\n      for (; j < item.parts.length; j++) {\n        domStyle.parts.push(addStyle(item.parts[j]))\n      }\n      if (domStyle.parts.length > item.parts.length) {\n        domStyle.parts.length = item.parts.length\n      }\n    } else {\n      var parts = []\n      for (var j = 0; j < item.parts.length; j++) {\n        parts.push(addStyle(item.parts[j]))\n      }\n      stylesInDom[item.id] = { id: item.id, refs: 1, parts: parts }\n    }\n  }\n}\n\nfunction createStyleElement () {\n  var styleElement = document.createElement('style')\n  styleElement.type = 'text/css'\n  head.appendChild(styleElement)\n  return styleElement\n}\n\nfunction addStyle (obj /* StyleObjectPart */) {\n  var update, remove\n  var styleElement = document.querySelector('style[' + ssrIdKey + '~=\"' + obj.id + '\"]')\n\n  if (styleElement) {\n    if (isProduction) {\n      // has SSR styles and in production mode.\n      // simply do nothing.\n      return noop\n    } else {\n      // has SSR styles but in dev mode.\n      // for some reason Chrome can't handle source map in server-rendered\n      // style tags - source maps in <style> only works if the style tag is\n      // created and inserted dynamically. So we remove the server rendered\n      // styles and inject new ones.\n      styleElement.parentNode.removeChild(styleElement)\n    }\n  }\n\n  if (isOldIE) {\n    // use singleton mode for IE9.\n    var styleIndex = singletonCounter++\n    styleElement = singletonElement || (singletonElement = createStyleElement())\n    update = applyToSingletonTag.bind(null, styleElement, styleIndex, false)\n    remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true)\n  } else {\n    // use multi-style-tag mode in all other cases\n    styleElement = createStyleElement()\n    update = applyToTag.bind(null, styleElement)\n    remove = function () {\n      styleElement.parentNode.removeChild(styleElement)\n    }\n  }\n\n  update(obj)\n\n  return function updateStyle (newObj /* StyleObjectPart */) {\n    if (newObj) {\n      if (newObj.css === obj.css &&\n          newObj.media === obj.media &&\n          newObj.sourceMap === obj.sourceMap) {\n        return\n      }\n      update(obj = newObj)\n    } else {\n      remove()\n    }\n  }\n}\n\nvar replaceText = (function () {\n  var textStore = []\n\n  return function (index, replacement) {\n    textStore[index] = replacement\n    return textStore.filter(Boolean).join('\\n')\n  }\n})()\n\nfunction applyToSingletonTag (styleElement, index, remove, obj) {\n  var css = remove ? '' : obj.css\n\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = replaceText(index, css)\n  } else {\n    var cssNode = document.createTextNode(css)\n    var childNodes = styleElement.childNodes\n    if (childNodes[index]) styleElement.removeChild(childNodes[index])\n    if (childNodes.length) {\n      styleElement.insertBefore(cssNode, childNodes[index])\n    } else {\n      styleElement.appendChild(cssNode)\n    }\n  }\n}\n\nfunction applyToTag (styleElement, obj) {\n  var css = obj.css\n  var media = obj.media\n  var sourceMap = obj.sourceMap\n\n  if (media) {\n    styleElement.setAttribute('media', media)\n  }\n  if (options.ssrId) {\n    styleElement.setAttribute(ssrIdKey, obj.id)\n  }\n\n  if (sourceMap) {\n    // https://developer.chrome.com/devtools/docs/javascript-debugging\n    // this makes source maps inside style tags work properly in Chrome\n    css += '\\n/*# sourceURL=' + sourceMap.sources[0] + ' */'\n    // http://stackoverflow.com/a/26603875\n    css += '\\n/*# sourceMappingURL=data:application/json;base64,' + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + ' */'\n  }\n\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild)\n    }\n    styleElement.appendChild(document.createTextNode(css))\n  }\n}\n"
+    },
+    {
+      "id": "./node_modules/vue-style-loader/lib/listToStyles.js",
+      "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\listToStyles.js",
+      "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+      "index": 5,
+      "index2": 2,
+      "size": 637,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+      "issuerId": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+      "issuerName": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+      "issuerPath": [
+        {
+          "id": "./src/main.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 119,
+            "building": 2105
+          }
+        },
+        {
+          "id": "./src/style1.css",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+          "name": "./src/style1.css",
+          "profile": {
+            "factory": 1141,
+            "building": 77
+          }
+        },
+        {
+          "id": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+          "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "profile": {
+            "factory": 1158,
+            "building": 3470
+          }
+        }
+      ],
+      "profile": {
+        "factory": 2301,
+        "building": 41
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+          "module": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "moduleName": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./listToStyles",
+          "loc": "7:0-41"
+        },
+        {
+          "moduleId": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+          "module": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "moduleName": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "type": "harmony import specifier",
+          "userRequest": "./listToStyles",
+          "loc": "57:15-27"
+        },
+        {
+          "moduleId": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\lib\\addStylesClient.js",
+          "module": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "moduleName": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+          "type": "harmony import specifier",
+          "userRequest": "./listToStyles",
+          "loc": "69:15-27"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 3,
+      "source": "/**\n * Translates the list format produced by css-loader into something\n * easier to manipulate.\n */\nexport default function listToStyles (parentId, list) {\n  var styles = []\n  var newStyles = {}\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i]\n    var id = item[0]\n    var css = item[1]\n    var media = item[2]\n    var sourceMap = item[3]\n    var part = {\n      id: parentId + ':' + i,\n      css: css,\n      media: media,\n      sourceMap: sourceMap\n    }\n    if (!newStyles[id]) {\n      styles.push(newStyles[id] = { id: id, parts: [part] })\n    } else {\n      newStyles[id].parts.push(part)\n    }\n  }\n  return styles\n}\n"
+    },
+    {
+      "id": "./src/color.png",
+      "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\url-loader\\dist\\cjs.js??ref--3-0!D:\\zf7067\\Desktop\\vuewp\\src\\color.png",
+      "name": "./src/color.png",
+      "index": 6,
+      "index2": 5,
+      "size": 75,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+      "issuerId": "./src/main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "id": "./src/main.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 119,
+            "building": 2105
+          }
+        }
+      ],
+      "profile": {
+        "factory": 1141,
+        "building": 77
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "static/img/color.0904ebf0.png"
+      ],
+      "reasons": [
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./color.png",
+          "loc": "2:0-34"
+        },
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "type": "harmony import specifier",
+          "userRequest": "./color.png",
+          "loc": "8:12-19"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "module.exports = __webpack_public_path__ + \"static/img/color.0904ebf0.png\";"
+    },
+    {
+      "id": "./src/main.js",
+      "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+      "name": "./src/main.js",
+      "index": 0,
+      "index2": 6,
+      "size": 302,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 119,
+        "building": 2105
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/main.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import './style1.css';\nimport imgIcon from './color.png';\n\nvar func = function func() {\n  var div = document.createElement('div');\n  div.innerHTML = 'abc';\n  var img = new Image();\n  img.src = imgIcon;\n  div.appendChild(img);\n  document.body.appendChild(div);\n  console.log('hello world!');\n};\n\nfunc();"
+    },
+    {
+      "id": "./src/style1.css",
+      "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\vue-style-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\css-loader\\dist\\cjs.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\postcss-loader\\src\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\style1.css",
+      "name": "./src/style1.css",
+      "index": 1,
+      "index2": 4,
+      "size": 1106,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+      "issuerId": "./src/main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "id": "./src/main.js",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 119,
+            "building": 2105
+          }
+        }
+      ],
+      "profile": {
+        "factory": 1141,
+        "building": 77
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\babel-loader\\lib\\index.js!D:\\zf7067\\Desktop\\vuewp\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./style1.css",
+          "loc": "1:0-22"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = require(\"!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css\");\nif(typeof content === 'string') content = [[module.id, content, '']];\nif(content.locals) module.exports = content.locals;\n// add the styles to the DOM\nvar add = require(\"!../node_modules/vue-style-loader/lib/addStylesClient.js\").default\nvar update = add(\"7a72563a\", content, false, {});\n// Hot Module Replacement\nif(module.hot) {\n // When the styles change, update the <style> tags\n if(!content.locals) {\n   module.hot.accept(\"!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css\", function() {\n     var newContent = require(\"!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js!./style1.css\");\n     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];\n     update(newContent);\n   });\n }\n // When the module is disposed, remove the <style> tags\n module.hot.dispose(function() { update(); });\n}"
+    }
+  ],
+  "filteredModules": 0,
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\zf7067\\Desktop\\vuewp\\dist",
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "index.html",
+          "size": 29340,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [],
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 405,
+          "names": [],
+          "files": [
+            "index.html"
+          ],
+          "hash": "258e36b8799f5cea4a65",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+              "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\html-withimg-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 405,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 53,
+                "building": 434
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\zf7067\\Desktop\\vuewp\\index.html"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "module.exports = \"<!DOCTYPE html><html lang=\\\"en\\\">  <head>    <meta charset=\\\"utf-8\\\">    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">    <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1.0\\\">    <link rel=\\\"icon\\\" href=\\\"favicon.ico\\\">    <title>hello-world</title>  </head>  <body>    <div id=\\\"app\\\"></div>    <!-- built files will be auto injected -->  </body></html>\""
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\zf7067\\Desktop\\vuewp\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+          "identifier": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\zf7067\\Desktop\\vuewp\\node_modules\\html-withimg-loader\\index.js!D:\\zf7067\\Desktop\\vuewp\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 405,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 53,
+            "building": 434
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\zf7067\\Desktop\\vuewp\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\zf7067\\Desktop\\vuewp\\index.html"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "module.exports = \"<!DOCTYPE html><html lang=\\\"en\\\">  <head>    <meta charset=\\\"utf-8\\\">    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">    <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1.0\\\">    <link rel=\\\"icon\\\" href=\\\"favicon.ico\\\">    <title>hello-world</title>  </head>  <body>    <div id=\\\"app\\\"></div>    <!-- built files will be auto injected -->  </body></html>\""
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "html-webpack-plugin for \"index.html\""
+    }
+  ]
+}

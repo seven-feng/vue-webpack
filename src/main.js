@@ -1,15 +1,8 @@
-import './style1.css';
-import imgIcon from './color.png';
+import Vue from 'vue'
+import App from './App.vue'
 
-var func = () => {
-  var div = document.createElement('div');
-  div.innerHTML = 'haddeeddeha';
-  var img = new Image();
-  img.src = imgIcon;
-  div.appendChild(img);
-  document.body.appendChild(div);
+Vue.config.productionTip = false
 
-  console.log('hello world!');
-}
-
-func();
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
