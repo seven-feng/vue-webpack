@@ -104,6 +104,6 @@ module.exports = {
       filename: utils.assetsPath('css/[name].[hash:8].css'),
       chunkFilename: utils.assetsPath('css/[id].[hash:8].css')
     }),
-    new VueLoaderPlugin()
+    new VueLoaderPlugin() // Vue Loader 允许你以一种名为单文件组件 (SFCs) 的格式撰写 Vue 组件，其实就是可以解析单文件组件
   ]
 }
